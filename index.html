@@ -22,7 +22,6 @@
     <div class="menu">
         <ul>
             <li> <a href="#achievements" style="text-decoration: none;" class="projects">Achievements</li></a>
-            <li> <a href="#projects" style="text-decoration: none;" class="achievements">Projects</li>
             <li> <a href="#contact" style="text-decoration: none;" class="contact">Contact</li></a>            
         </ul>
     </div>
@@ -38,7 +37,7 @@
         <h1>Hi! I'm Vardaan Sinha.</h1>
         <br>
         <br>
-        <p>I'm a high school freshman who loves computer science, writing, music, problem solving, and math.</p>
+        <p>I'm a high school freshman who loves computer science, writing, music, <br>problem solving, and math.</p>
     </div>
     <div class="icon-bar">
         <a href="https://github.com/vardaansinha" class="github"><i class="fa fa-github"></i></a>  
@@ -90,6 +89,37 @@
         <p>4. 2018 FPSPI: 5th Place team at State</p>
         <br>
         <p>5. 2020 World Hackers Hackathon: Runner-Up</p>
+    <div id="contact">
+        <b><h1>Contact Me:</h1></b>
+        <br>
+        <br>
+    </div>
+    <div class="conts">
+        <b><h2>Email: vardsin28@gmail.com</h2></b>
+        <br>
+        <b><h2>Discord: Vardaan Sinha#6833</h2></b>
+    </div>
+<button onclick="topFunction()" id="top" title="Go to top">Top</button>
+<script>
+mybutton = document.getElementById("top");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
 </div>
 </body>
 
